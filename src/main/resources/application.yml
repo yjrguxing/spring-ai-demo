@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: spring-ai-test
+  ai:
+    openai:
+      chat:
+        api-key: ""
+    vectorstore:
+      qdrant:
+        initialize-schema: true
+        host: localhost
+        port: 6334
